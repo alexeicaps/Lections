@@ -72,28 +72,85 @@
 # Пользователь вводит 2 числа. n — кол-во элементов первого множества. m — кол-во элементов второго множества.
 # Затем пользователь вводит сами элементы множеств.
 
-n = int(input("Введите первое множество n: "))
-m = int(input("Введите первое множество m: "))
-list_1 = set()
-list_2 = set()
+# n = int(input("Введите первое множество n: "))
+# m = int(input("Введите первое множество m: "))
+# list_1 = set()
+# list_2 = set()
+# for i in range(list_1[n]):
+#     x = int(input("Введите элемент множества n: "))
+#     print(i)
+#
 
-for i in list_1:
-    # x = int(input("Введите элемент множества n: "))
-    list_1.add(int(input("Введите элемент множества n: ")))
-print(list_1)
-
-for j in list_2:
-    y = int(input("Введите элемент множества n: "))
-    list_1.add(y[0])
-print(result)
-max_number = 0
+# list_3 = list_1.intersection(list_2)
+# print(list_3)
 
 
 
+# list_44 = {5, 3, 29, 4, 1, 6, 84}
+# list_44.add(25)
+# print(list(list_44))
 
+# a = {1, 3, 6, 4, 8, 25}
+# print(a)
+# a.add(11)
+# print(a)
+# a.update({26, 29, 28})
+# print(a)
+# a.discard(4)
+# print(a)
+# a.remove(28)
+# print(a)
+# a.discard(28)
+# print(a)
+# a.pop()
+# print(a)
+# a.pop()
+# print(a)
+# a.clear()
+# print(a)
 
+# a = {1, 3, 6, 4, 8, 25, 8}
+# print(len(a))
+# print(8 in a)
+# print(33 in a, 7 in a, 7 not in a)
 
-# list_1 = {1, 2, 33, 45, 95, 4, 5}
-# list_2 = {6, 5, 9, 45, 59, 14, 54}
-# b = list_1.union(list_2)
-# print(b)
+# a = {1, 3, 6, 4, 8, 25, 8}
+# b = {1, 65, 6, 2, 8, 25, 9}
+# g = {2, 3, 6, 9, 15}
+# h = {15, 9, 2, 3, 6}
+# c = a.union(b)
+# d = a.intersection(b)
+# print(c)
+# print(d)
+# print(a.intersection(g, b))
+# print(a | b)
+# print(a - g)
+# print(g == h)
+
+# list2 = [1, 2, 3]
+# print(list2)
+# print(set(list2), type(list2))
+# a = set(list2)
+# print(a, type(a))
+
+# list5 = {5, 3, 6, 4, 9}
+# print(list5)
+# b = list(list5)
+# print(b, type(b))
+
+# list5 = {5, 3, 6, 4, 9}
+# t = tuple(list5)
+# print(t, type(t))
+# l = list(t)
+# print(l, type(l))
+# for i in list5:
+#     print(i)
+
+text = input()
+a = set()
+while text != ' ':
+    slova = text.split()
+    a.update(slova)
+    print(a)
+    text = input()
+
