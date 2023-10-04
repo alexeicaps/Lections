@@ -9,7 +9,7 @@
 # 6
 # 4 15 43 1 15 1
 
-
+# print(my_st.split())
 # n = int(input("Введите количество элементов 1 массива: "))
 # list_1 = [int(i) for i in input("введите элементы: ").split()[:n]]
 # m = int(input("Введите количество элементов 2 массива: "))
@@ -83,17 +83,17 @@
 # 300 220 284
 
 
-n = int(input("Input number: "))
-data = {}
-for i in range(2, n + 1):
-    summa = 1
-    for j in range(2, i // 2 + 1):
-        if i % j == 0:
-            summa += j
-    data[i] = summa
-print_list = list()
-for k, v in data.items():
-    if v in data.keys() and k in data.values() and k != v and data[v] == k and data[k] == v\
-            and (k, v) not in print_list:
-        print(k, v)
-        print_list.append((v, k))
+# n = int(input("Input number: "))
+# data = {}
+# for i in range(2, n + 1):
+#     summa = 1
+#     for j in range(2, i // 2 + 1):
+#         if i % j == 0:
+#             summa += j
+#     data[i] = summa
+# print_list = list()
+# for k, v in data.items():
+#     if v in data.keys() and k in data.values() and k != v and data[v] == k and data[k] == v\
+#             and (k, v) not in print_list:
+#         print(k, v)
+#         print_list.append((v, k))
