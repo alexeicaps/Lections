@@ -135,29 +135,16 @@
 #     my_file.write('line 2\n')
 # print(56)
 
-path = 'file.txt'
-data = open('file.txt', 'r')
-for line in data:
-    print(line)
-data.close()
+# path = 'file.txt'
+# data = open('file.txt', 'r')
+# for line in data:
+#     print(line)
+# data.close()
 
 
 
 
 
-
-
-
-
-#  /////////////////////////////////////////////////////////////////////////////
-
-# def power(a, b):
-#     if b == 0:
-#         return 1
-#     return power(a, b -1) * a
-
-# ///////////////////////////////////////////////
-# Задача №47.
 
 
 
@@ -171,17 +158,32 @@ data.close()
 #     print('fail')
 
 # ///////////////////////////////////////////////
-# Задача №49. Общее обсуждение
+# Задача №49.
+
+# print(1!= 2)
 
 # def find_farthest_orbit(orbits):
 #     condition = lambda data: (data[0] != data[1]) * data[0] * data[1]
 #     square_orbits = list(map(condition, orbits))
 #     return orbits[square_orbits.index(max(square_orbits))]
 #
-#
 # orbits = [(1, 3), (2.5, 10), (7, 2), (6, 6), (4, 3)]
 # print(*find_farthest_orbit(orbits))
 
+# //////////////////////////////////////////////////////////////////////////////////////
+
+# a = [100, 33, 90, 54, 3, 9]
+# def max_a(a):
+#     res = list(filter(int, a))
+#     return a.index(max(res))
+#
+# print(max_a(a))
+#
+# def min_a(a):
+#     res = list(filter(int, a))
+#     return a.index(min(res))
+#
+# print(min_a(a))
 
 
 # ///////////////////////////////////////////////
